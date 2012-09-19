@@ -1,0 +1,11 @@
+/* 
+ * IE7< stylesheet for Drupal North East
+ *
+ * @version 2b/1.0
+ * @date March 2011
+ * @author Richard Carter, @RichardCarter
+ *
+ */
+nav#primary {display: block !important;position: relative !important}
+#main-wrapper {padding-top: 45px !important}
+#register a:hover {background: #0b6193}

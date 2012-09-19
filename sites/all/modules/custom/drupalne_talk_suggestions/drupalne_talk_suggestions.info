@@ -1,0 +1,15 @@
+name = DrupalNE Talk Suggestions
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = drupalne_talk_suggestions
+dependencies[] = drupalne_shared_taxonomies
+dependencies[] = fivestar
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-talk_suggestion-body
+features[field][] = node-talk_suggestion-field_suggestion_topic
+features[field][] = node-talk_suggestion-field_suggestion_vote
+features[node][] = talk_suggestion
+features[views_view][] = talk_suggestions

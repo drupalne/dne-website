@@ -1,0 +1,175 @@
+/* 
+ * Global stylesheet for Drupal North East
+ *
+ * @version 2b/1.0
+ * @date March 2011
+ * @author Richard Carter, @RichardCarter
+ *
+ */
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}
+body {line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block}
+nav ul {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+a {background:transparent;font-size:100%;margin:0;padding:0;vertical-align:baseline}
+/* Generic */
+body {background: #0b6193;color: #FFF;font-family: "arial", "tahoma", "helvetica", sans-serif}
+	#primary, h1, h2, h3, h4, h5, h6 {font-family: "nevis", "arial", "tahoma", "helvetica", sans-serif}
+.access {float: left;position: absolute;left: -9999px}
+	ul.access {list-style-type: none}
+h1 {background: transparent url("../images/h_bg.png") repeat-x bottom center;color: #FFF;font-size: 150%;font-weight: normal;padding-bottom: 15px}
+h2 {font-size: 125%}
+a, a:active, a:link, a:visited {border-bottom: 1px #FFF dotted;font-weight: bold;text-decoration: none}
+	a, a:active, a:link {color: #FFF}
+	a:visited {color: #EEE}
+	a:hover {border-bottom-color: #0b6193}
+::selection {background: #014266;color: #FFF;text-shadow: none}
+/* Structure */
+#primary {background: #014266;background: rgba(1,66,102,0.9);border-top: 1px #c5d9e6 solid;font-size: 80%;padding: 20px 0;position: fixed;text-align: right;text-transform: uppercase;width: 100%;z-index: 999;zoom: 1 !important}
+	#primary h2 {display: none}
+	#primary .menu, #primary .block-user {display: inline;list-style-type: none;padding: 10px 0}
+	#primary .menu li {display: inline;margin: 0 0 0 10px}
+	#primary .menu li a {-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;padding: 10px 5px;position: relative}
+		/*#primary .block-user {background: transparent url("../images/users_bg.png") no-repeat left center;margin-left: 15px;padding-left: 15px}
+		#primary .block-user a {color: #0c69a0}
+		#primary .block-user a:hover {color: #FFF}
+		#primary .block-user h2 {display: none}*/
+	#primary .menu a {border-width: 0;color: #FFF}
+	#primary  .menu .active a {text-decoration: underline}
+	#primary  .menu a:hover {background-color: #0b6193;-webkit-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;transition: all 1s ease-in-out}
+	
+#masthead, #content {display: inline;float: left;}
+	#masthead {clear: left;width: 240px}
+	#masthead a {border-width: 0}
+	#masthead img:hover {opacity: 0.7}
+	h2.site-slogan {color: #c5d9e6;margin-bottom: 20px;padding-top: 20px;text-align: center;text-transform: none}
+	
+	#masthead section, #masthead .block {background: transparent url("../images/masthead-section_bg.png") no-repeat top center;line-height: 125%;padding: 30px 20px 30px 20px}
+		#masthead section h1, #masthead .block h1 {color: #FFF;margin-bottom: 10px;text-align: center}
+		
+	#masthead .block {text-align: center}
+		
+	#masthead {margin-top: 20px;text-align: center}
+		#masthead  p {color: #c5d9e6}
+			#masthead strong {color: #FFF;display: block;font-size: 150%;line-height: 150%}
+		#masthead p a {background: #014266;background: rgba(1,66,102,0.9);-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;display: block;font-weight: bold;margin-bottom: 10px;padding: 10px;/*-webkit-box-shadow: 1px 1px 5px #111;-moz-box-shadow: 1px 1px 5px #111;box-shadow: 1px 1px 5px #111;*/}
+			#masthead p a:hover {background: #c5d9e6;background: rgba(255,255,255,0.2);color: #014266/*-webkit-box-shadow: inset 1px 1px 5px #111;-moz-box-shadow: inset 1px 1px 5px #111;box-shadow: inset 1px 1px 5px #111;*/}
+		#masthead h2 {margin-bottom: 20px}
+	#follow-us {text-align: center}
+		#follow-us ul {list-style-type: none;margin: 0;text-align: center}
+			#follow-us li {display: inline;margin: 0 10px}
+			
+	.block-user {}
+		.block-user ul, .block-user label {color: #c5d9e6;font-size: 90%}
+		.block-user ul {list-style-type: none}
+			.block-user a {color: #c5d9e6;font-weight: normal}
+				.block-user a:hover {color: #FFF;text-decoration: underline}
+				
+
+/* Blog, events teasers */
+.node-teaser-blog, .views-row {margin: 0;padding: 30px 20px}
+.comment, .views-row {border: none;color: #FFF;margin: 0;padding: 20px}
+.comment:nth-of-type(even), .node-teaser-blog:nth-of-type(even), .views-row:nth-of-type(even) {background:#014266;background: rgba(1,66,102,0.8);border: 1px #0D77B7 solid;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px}	 
+
+.node-teaser-blog:last-of-type, .views-row:last-of-type {border-bottom: none}
+.node-teaser-blog h2, .views-row h2 {font-size: 125%;margin-bottom: 20px}
+.node-teaser-blog h2 a, .node-teaser-blog .links a, .node-teaser .links a {border: none;text-decoration: none}
+.node-teaser-blog h2 a:hover, .node-teaser-blog .links a:hover, .node-teaser .links a:hover {text-decoration: underline}
+
+.node-teaser h2 a {background: transparent url("../images/h2-a_bg.png") no-repeat center right;border: none;display: block;opacity: 0.9;padding-right: 40px}
+	.node-teaser h2 a:hover {-webkit-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;transition: all 1s ease-in-out;opacity: 1;text-decoration: underline}
+
+.views-row .field {border-bottom: 1px #0D77B7 solid;;padding: 10px 0}
+	.views-row:nth-of-type(even) .field {border-bottom-color: #C5D9E6}
+	
+.field-type-geolocation-latlng {z-index: 1} /* Fix issue with fixed nav bar/scrolling map */
+
+/* Talks container for events pages */
+.field-collection-container, .field-collection-view {border: none;margin: 0;padding: 0 0 20px 0}
+.field-name-field-event-talks {}
+
+.field-collection-container .field-label {display: none}
+.field-name-field-talk-title .field-item {font-size: 125%;font-style: italic;font-weight: bold;padding: 0 0 10px 0} /* talk title */
+
+/* Voting stars overwrite */
+div.fivestar-widget-static .star {background: url("../images/star.png") no-repeat 0 0}
+div.fivestar-widget-static .star span.on {background: url("../images/star.png") no-repeat 0 -32px}
+div.fivestar-widget-static .star span.off {background: url("../images/star.png") no-repeat 0 0}
+div.fivestar-widget .cancel, div.fivestar-widget .cancel a {background: url("../images/delete.png") no-repeat 0 -16px}
+div.fivestar-widget .star, div.fivestar-widget .star a {background: url("../images/star.png") no-repeat 0 0}
+
+/* Registration */
+.field-multiple-table {width: 100%}
+	.field-multiple-table .tabledrag-handle {border: none;float: left;margin: 10px 0 0 30px;padding-left: 30px}
+	.field-multiple-table tr.draggable {background: #eef6fb;border-color: #bfdcee}
+		.field-multiple-table td {background: none;vertical-align: middle}
+	.field-multiple-table .warning {display: block;text-align: center}
+	.field-multiple-table .drag-previous {background: #FFFCE5}
+
+/* Comments */
+#comments {border-top: 1px #0D77B7 solid;margin-top: 40px;padding-top: 30px}
+.comment .submitted {margin-bottom: 20px}
+.comment .links, .node-blog .links, .node-teaser-blog .links, .submitted, .comment .user-signature {color: #C5D9E6;font-size: 80%}
+.comment .links a, .node-blog .links a, .node-teaser-blog .links a, .comment .user-signature a {color: #C5D9E6}
+.comment .links li, .node-blog .links li, .node-teaser-blog .links li {margin-right: 20px}
+.comment .permalink {display: none} /* ? */
+.comment .user-signature {font-style: italic;text-align: right} 
+
+/* Tabs */
+	
+/* Forms */
+.form-required {color: #FFF}
+input {background: #FFF;border: 1px #c5d9e6 solid;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;color: #014266;padding: 2px}
+	input:focus {border-color: #FFF}
+	input.form-submit {background: #014266;border-width: 0;color: #FFF;font-weight: bold;padding: 5px 20px;width: auto}
+		input.form-submit:hover, input.form-submit:active {background: #c5d9e6;color: #014266}
+			
+	.block-user input {width: 200px}	
+	
+	
+#content {color: #fff;line-height: 150%;margin-left: 40px;overflow: hidden;width: 680px}
+	#content h1 {background: transparent url("../images/h1_bg.png") no-repeat bottom center;color: #FFF;margin-bottom: 20px;padding-bottom: 10px;text-align: center}
+	#content p:first-of-type, #content strong {color: #FFF}
+	#content a:visited {color: #dde9f0}
+	#content a:hover {color: #FFF}
+	#content ul, #content ol, #content dl, #content p, #content figure {margin-bottom: 20px}
+		#content ul, #content ol, #content dl {margin-left: 40px}
+		
+	.feed-icon {border-bottom: none}
+		
+	#location {background: #014266;background: rgba(1,66,102,0.9);-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;border: 1px #015381 solid;color: #c5d9e6;margin-bottom: 20px;padding: 20px;}
+		/* MOZ: [<position>,]? [<shape> || <size>,]? <stop>, <stop>[, <stop>] */
+		/* WK: -webkit-gradient(radial, <point>, <radius>, <point>, <radius>[, <stop>]*) <color>; */
+		#location {
+		/*background: -webkit-gradient(radial, 50% 0, 20, 500 25%, 40, from(#015381), to(#014266)); Fix me! */
+		background: -moz-radial-gradient(50% 0, circle, #015381 10px, #014266 250px);
+		}
+		#location h1 {background: none;border-bottom: 1px #015381 solid;color: #c5d9e6}
+		#location img {border: 1px solid #015381;float: right;margin: 0 0 20px 20px;padding: 10px;}
+		
+#footer {background: transparent url("../images/footer_bg.png") no-repeat top center;clear: both;color: #c5d9e6;font-size: 80%;margin: 20px 0;padding: 20px 0;text-align: center;zoom: 1}
+	#footer p {margin-bottom: 10px}
+		#footer a {border-bottom: 0;color: #afcbdc;}
+			#footer a:hover {color: #FFF;text-decoration: underline}
+	#footer img {margin-top: 20px;opacity: 0.7}
+	#footer img:hover {opacity: 1}
+	
+.links {font-size: 90%;margin: 10px 0 0 0 !important}
+.links {color: #C5D9E6;color: #rgba(255, 255, 255, 0.196)}
+	.links a {border-width: 0;color: #C5D9E6;color: #rgba(255, 255, 255, 0.196);}
+
+.tabs {background: transparent;border-bottom-width: 0 !important;list-style-type: none;text-align: center}
+	.tabs li {display: inline;margin: 0 !important}
+	.tabs li a {background: transparent !important;border-width: 0 !important;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;color: #bfdcee;padding: 10px !important}
+	.tabs .active  {color: #FFF}
+.messages {-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;margin: 10px 0}
+/* Float fix */
+#main-content:after, #location:after {content: ".";display: block; height: 0;clear: both;visibility: hidden}
+#main-content, #location {display:block}
+/*  \*/
+#main-content, #location {min-height:1%}
+* html #main-content, * html #location {height:1%}
+ /*  */
+/* End float fix */

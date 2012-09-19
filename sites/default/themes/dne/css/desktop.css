@@ -1,0 +1,17 @@
+/* 
+ * Desktop stylesheet for Drupal North East
+ *
+ * @version 2b/1.0
+ * @date March 2011
+ * @author Richard Carter, @RichardCarter
+ *
+ */
+ /* Generic */
+ body {background: #0b6193 url("../images/body_bg.png") no-repeat top center fixed;}
+  /* Structure */
+.wrapper {margin: 0 auto;width: 960px}
+	#main-wrapper {padding-top: 100px}
+	
+	#follow-us-mobile {display: none;}
+
+.user-picture {clear: left;float: left;margin: 10px 20px 20px 0}

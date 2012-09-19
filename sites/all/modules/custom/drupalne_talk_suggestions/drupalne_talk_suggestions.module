@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DrupalNE Talk Suggestions feature.
+ */
+
+include_once 'drupalne_talk_suggestions.features.inc';

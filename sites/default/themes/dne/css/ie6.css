@@ -1,0 +1,12 @@
+/* 
+ * IE6< stylesheet
+ *
+ * @version 1c/1/1.0
+ * @date May 2012
+ * @author Richard Carter, @RichardCarter
+ * @url http://www.peacockcarter.co.uk/about/richard-carter
+ */
+* html .groupList li,
+* html .group { height: 1%; }
+* html .groupList li li { height: auto; } /* Resets nested LIs */
+* html .group { height: 1%; }

@@ -1,0 +1,45 @@
+; $Id$
+
+name = DNE
+description = The theme for the Drupal North East website by <a href="http://twitter.com/RichardCarter">@RichardCarter</a>
+core = 7.x
+
+; REGIONS
+;-------------------------------------------------------------------------------
+regions[page_top] = Page Top
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[copyright] = Copyright
+;regions[collapsible] = Collapsible
+regions[page_bottom] = Page Bottom
+
+
+; STYLESHEETS
+;-------------------------------------------------------------------------------
+stylesheets[all][] = css/global.css
+stylesheets-conditional[lte IE 7][all][] = css/ie7.css
+stylesheets[screen and (min-width: 960px)][] = css/desktop.css
+stylesheets[screen and (min-width: 481px) and (max-width: 959px)][] = css/notebook.css
+stylesheets[screen and (max-width: 480px)][] = css/handheld.css
+
+; SCRIPTS
+;-------------------------------------------------------------------------------
+scripts[] = js/scripts.js
+
+
+; FEATURES
+;-------------------------------------------------------------------------------
+features[] = logo
+features[] = favicon
+features[] = name
+features[] = slogan
+features[] = main_menu
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = comment_user_verification

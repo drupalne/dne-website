@@ -1,0 +1,17 @@
+name = DrupalNE Blogs
+core = 7.x
+package = Features
+version = 7.x-1.1
+project = drupalne_blogs
+dependencies[] = drupalne_shared_taxonomies
+dependencies[] = image
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-blog-body
+features[field][] = node-blog-field_blog_categories
+features[field][] = node-blog-field_blog_image
+features[field][] = node-blog-field_blog_image_gallery
+features[field][] = node-blog-field_blog_tags
+features[node][] = blog
+features[views_view][] = blogs

@@ -1,0 +1,31 @@
+/* 
+ * Handheld stylesheet
+ *
+ * @version 1c/1/1.0
+ * @date May 2012
+ * @author Richard Carter, @RichardCarter
+ * @url http://www.peacockcarter.co.uk/about/richard-carter
+ *
+ */
+body {-webkit-text-size-adjust: none}
+header {margin: 0}
+	#masthead img {margin: 10px 0;width: 30%;}
+	
+h1 {border-bottom: 1px #555 solid;font-size: 125%;margin-bottom: 20px;padding-bottom: 30px;text-align: center}
+h2 {font-size: 110%}
+h3 {font-size: 100%}
+
+	#masthead, #content {margin: 0 2%;width: 95%}
+	
+	#main-wrapper {padding-top: 50px}
+	
+	#follow-us {display: none;}
+		#follow-us img {width: 10%}
+	
+		#follow-us-mobile {margin-top: 20px;}
+		#follow-us-mobile img {float: left; padding: 0px 5px 25px 5px;}
+		#follow-us-mobile ul {margin: 0 auto; width: 38%;}
+		#follow-us-mobile ul li {list-style: none; display: inline;}
+		#follow-us-mobile a {border-bottom: none;}
+		#follow-us-mobile h1 {border: none; padding: 0;}
+		
